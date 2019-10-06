@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-09-10 15:33:00+0000\n"
+"PO-Revision-Date: 2019-10-06 12:52:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,33 @@ msgstr ""
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Elementor Page Builder - Stable (latest release)\n"
+
+#: includes/controls/groups/background.php:656
+msgid "Transition"
+msgstr "Переход"
+
+#: includes/controls/groups/background.php:646
+msgid "Duration"
+msgstr "Длительность"
+
+#: includes/controls/groups/background.php:624
+msgctxt "Background Control"
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/controls/groups/background.php:104
+msgctxt "Background Control"
+msgid "Slideshow"
+msgstr "Слайдшоу"
+
+#: includes/controls/groups/background.php:100
+msgctxt "Background Control"
+msgid "Video"
+msgstr "Видео"
+
+#: core/logger/log-reporter.php:33
+msgid "Clear Log"
+msgstr "Очистить журнал"
 
 #: includes/widgets/image-carousel.php:759
 msgid "Next"
