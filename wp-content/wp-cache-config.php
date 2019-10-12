@@ -5,6 +5,7 @@ WP-Cache Config Sample File
 See wp-cache.php for author details.
 */
 
+$wp_cache_debug_username = '9328949231b8d705229943a2dc206cc5';
 $wp_cache_home_path = '/spin/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = 'f9a9e7de98bcec5811ca8b05a8e4aa8d';
@@ -12,12 +13,12 @@ $cache_time_interval = 600;
 if ( ! defined('WPCACHEHOME') )
 	define( 'WPCACHEHOME', WP_CONTENT_DIR . "/plugins/wp-super-cache/" );
 
-$cache_compression = 0; // Super cache compression
-$cache_enabled = false;
+$cache_compression = 1;
+$cache_enabled = true;
 $super_cache_enabled = true;
 $cache_max_time = 1800;
 //$use_flock = true; // Set it true or false if you know what to use
-$cache_path = WP_CONTENT_DIR . '/cache/';
+$cache_path = 'C:\wamp64\www\spin\wp-content/cache/';
 $file_prefix = 'wp-cache-';
 $ossdlcdn = 0;
 
@@ -64,7 +65,7 @@ $wp_cache_debug_to_file = 0;
 $wp_super_cache_debug = 0;
 $wp_cache_debug_level = 5;
 $wp_cache_debug_ip = '';
-$wp_cache_debug_log = '';
+$wp_cache_debug_log = '03d84b09de5ef7146d5e9f10c78bb702.php';
 $wp_cache_debug_email = '';
 $wp_cache_pages[ "search" ] = 0;
 $wp_cache_pages[ "feed" ] = 0;
@@ -77,7 +78,7 @@ $wp_cache_pages[ "pages" ] = 0;
 $wp_cache_pages[ "single" ] = 0;
 $wp_cache_pages[ "author" ] = 0;
 $wp_cache_hide_donation = 0;
-$wp_cache_not_logged_in = 0;
+$wp_cache_not_logged_in = 2;
 $wp_cache_clear_on_post_edit = 0;
 $wp_cache_hello_world = 0;
 $wp_cache_mobile_enabled = 0;
@@ -99,7 +100,7 @@ $wp_cache_preload_taxonomies = 0;
 $wp_cache_preload_email_me = 0;
 $wp_cache_preload_email_volume = 'none';
 $wp_cache_mobile_prefixes = '';
-$cached_direct_pages = array();
+$cached_direct_pages = array(  );
 $wpsc_served_header = false;
 $cache_gc_email_me = 0;
 $wpsc_save_headers = 0;
